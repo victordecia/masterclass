@@ -13,3 +13,15 @@
 6. Multiple words. Modify the function to handle this translation (Hello world -> Ellohay orldway) and write a test that validates that this and all previous test pass.
 
 7. Punctuation. Modify the function to handle this translation (Hello, world. -> Ellohay, orldway.) and write a test that validates that this and all previous test pass.
+
+To run app:
+`npm start`
+
+User the following url to enter string:
+`localhost:3000/api/convert/<string>`
+Example `localhost:3000/api/convert/pig`
+Example `localhost:3000/api/convert/egg`
+
+To run tests:
+
+`npm tests`
